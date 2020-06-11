@@ -16,6 +16,9 @@
 		34712A8F24921356002F9462 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34712A8E24921356002F9462 /* main.m */; };
 		34712A9924921357002F9462 /* TestForDoKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34712A9824921357002F9462 /* TestForDoKitTests.m */; };
 		34712AA424921357002F9462 /* TestForDoKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34712AA324921357002F9462 /* TestForDoKitUITests.m */; };
+		890A705E4AC67A66146C453A /* Pods_TestForDoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3901C22DADA20FCA34811F /* Pods_TestForDoKit.framework */; };
+		D0F0C297C690C1EFE9E24FC5 /* Pods_TestForDoKit_TestForDoKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B00783B2AD05470F1F9C9CC /* Pods_TestForDoKit_TestForDoKitUITests.framework */; };
+		D759654FBC7BCA5228682011 /* Pods_TestForDoKit_TestForDoKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF85822F2E9FCE1CC11F111 /* Pods_TestForDoKit_TestForDoKitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B00783B2AD05470F1F9C9CC /* Pods_TestForDoKit_TestForDoKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestForDoKit_TestForDoKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3901C22DADA20FCA34811F /* Pods_TestForDoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestForDoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA93227281D3F50360BE7E8 /* Pods-TestForDoKit-TestForDoKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestForDoKit-TestForDoKitTests.release.xcconfig"; path = "Target Support Files/Pods-TestForDoKit-TestForDoKitTests/Pods-TestForDoKit-TestForDoKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		34712A7924921355002F9462 /* TestForDoKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForDoKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34712A7C24921355002F9462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34712A7D24921355002F9462 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +60,12 @@
 		34712A9F24921357002F9462 /* TestForDoKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForDoKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34712AA324921357002F9462 /* TestForDoKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForDoKitUITests.m; sourceTree = "<group>"; };
 		34712AA524921357002F9462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D4794B1F32C1FECCF4D44C2 /* Pods-TestForDoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestForDoKit.debug.xcconfig"; path = "Target Support Files/Pods-TestForDoKit/Pods-TestForDoKit.debug.xcconfig"; sourceTree = "<group>"; };
+		4DD0079B6DD4D5AC92F9518A /* Pods-TestForDoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestForDoKit.release.xcconfig"; path = "Target Support Files/Pods-TestForDoKit/Pods-TestForDoKit.release.xcconfig"; sourceTree = "<group>"; };
+		6CA1AC0768B5BF167921D219 /* Pods-TestForDoKit-TestForDoKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestForDoKit-TestForDoKitTests.debug.xcconfig"; path = "Target Support Files/Pods-TestForDoKit-TestForDoKitTests/Pods-TestForDoKit-TestForDoKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71F030686CAB249BDD8F5A14 /* Pods-TestForDoKit-TestForDoKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestForDoKit-TestForDoKitUITests.release.xcconfig"; path = "Target Support Files/Pods-TestForDoKit-TestForDoKitUITests/Pods-TestForDoKit-TestForDoKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C364823625A0EF592557A65 /* Pods-TestForDoKit-TestForDoKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestForDoKit-TestForDoKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestForDoKit-TestForDoKitUITests/Pods-TestForDoKit-TestForDoKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AEF85822F2E9FCE1CC11F111 /* Pods_TestForDoKit_TestForDoKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestForDoKit_TestForDoKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890A705E4AC67A66146C453A /* Pods_TestForDoKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D759654FBC7BCA5228682011 /* Pods_TestForDoKit_TestForDoKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F0C297C690C1EFE9E24FC5 /* Pods_TestForDoKit_TestForDoKitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03187E186A24B883D9994575 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D4794B1F32C1FECCF4D44C2 /* Pods-TestForDoKit.debug.xcconfig */,
+				4DD0079B6DD4D5AC92F9518A /* Pods-TestForDoKit.release.xcconfig */,
+				6CA1AC0768B5BF167921D219 /* Pods-TestForDoKit-TestForDoKitTests.debug.xcconfig */,
+				2CA93227281D3F50360BE7E8 /* Pods-TestForDoKit-TestForDoKitTests.release.xcconfig */,
+				7C364823625A0EF592557A65 /* Pods-TestForDoKit-TestForDoKitUITests.debug.xcconfig */,
+				71F030686CAB249BDD8F5A14 /* Pods-TestForDoKit-TestForDoKitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		34712A7024921354002F9462 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +117,8 @@
 				34712A9724921357002F9462 /* TestForDoKitTests */,
 				34712AA224921357002F9462 /* TestForDoKitUITests */,
 				34712A7A24921355002F9462 /* Products */,
+				03187E186A24B883D9994575 /* Pods */,
+				748DEC4F6119051A73149C31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +168,16 @@
 			path = TestForDoKitUITests;
 			sourceTree = "<group>";
 		};
+		748DEC4F6119051A73149C31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C3901C22DADA20FCA34811F /* Pods_TestForDoKit.framework */,
+				AEF85822F2E9FCE1CC11F111 /* Pods_TestForDoKit_TestForDoKitTests.framework */,
+				2B00783B2AD05470F1F9C9CC /* Pods_TestForDoKit_TestForDoKitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34712AA824921357002F9462 /* Build configuration list for PBXNativeTarget "TestForDoKit" */;
 			buildPhases = (
+				4F5ED5733C4E8E79F85DA279 /* [CP] Check Pods Manifest.lock */,
 				34712A7524921355002F9462 /* Sources */,
 				34712A7624921355002F9462 /* Frameworks */,
 				34712A7724921355002F9462 /* Resources */,
+				9BFBD723CD4C9DD3A07D0030 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34712AAB24921357002F9462 /* Build configuration list for PBXNativeTarget "TestForDoKitTests" */;
 			buildPhases = (
+				D2219CEFD38F225F9641B295 /* [CP] Check Pods Manifest.lock */,
 				34712A9024921357002F9462 /* Sources */,
 				34712A9124921357002F9462 /* Frameworks */,
 				34712A9224921357002F9462 /* Resources */,
+				8D33D1CAB9D6EA5717A2AC2E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34712AAE24921357002F9462 /* Build configuration list for PBXNativeTarget "TestForDoKitUITests" */;
 			buildPhases = (
+				B3E8E4BFE1FB13F1F236BAFE /* [CP] Check Pods Manifest.lock */,
 				34712A9B24921357002F9462 /* Sources */,
 				34712A9C24921357002F9462 /* Frameworks */,
 				34712A9D24921357002F9462 /* Resources */,
+				FA381EF4C1AFCA1E78853483 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +308,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F5ED5733C4E8E79F85DA279 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestForDoKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D33D1CAB9D6EA5717A2AC2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestForDoKit-TestForDoKitTests/Pods-TestForDoKit-TestForDoKitTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestForDoKit-TestForDoKitTests/Pods-TestForDoKit-TestForDoKitTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestForDoKit-TestForDoKitTests/Pods-TestForDoKit-TestForDoKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BFBD723CD4C9DD3A07D0030 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestForDoKit/Pods-TestForDoKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestForDoKit/Pods-TestForDoKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestForDoKit/Pods-TestForDoKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3E8E4BFE1FB13F1F236BAFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestForDoKit-TestForDoKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2219CEFD38F225F9641B295 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestForDoKit-TestForDoKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA381EF4C1AFCA1E78853483 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestForDoKit-TestForDoKitUITests/Pods-TestForDoKit-TestForDoKitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestForDoKit-TestForDoKitUITests/Pods-TestForDoKit-TestForDoKitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestForDoKit-TestForDoKitUITests/Pods-TestForDoKit-TestForDoKitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		34712A7524921355002F9462 /* Sources */ = {
@@ -437,6 +604,7 @@
 		};
 		34712AA924921357002F9462 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4794B1F32C1FECCF4D44C2 /* Pods-TestForDoKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +621,7 @@
 		};
 		34712AAA24921357002F9462 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD0079B6DD4D5AC92F9518A /* Pods-TestForDoKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +638,7 @@
 		};
 		34712AAC24921357002F9462 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA1AC0768B5BF167921D219 /* Pods-TestForDoKit-TestForDoKitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +658,7 @@
 		};
 		34712AAD24921357002F9462 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA93227281D3F50360BE7E8 /* Pods-TestForDoKit-TestForDoKitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +678,7 @@
 		};
 		34712AAF24921357002F9462 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C364823625A0EF592557A65 /* Pods-TestForDoKit-TestForDoKitUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestForDoKitUITests/Info.plist;
@@ -524,6 +696,7 @@
 		};
 		34712AB024921357002F9462 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F030686CAB249BDD8F5A14 /* Pods-TestForDoKit-TestForDoKitUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestForDoKitUITests/Info.plist;

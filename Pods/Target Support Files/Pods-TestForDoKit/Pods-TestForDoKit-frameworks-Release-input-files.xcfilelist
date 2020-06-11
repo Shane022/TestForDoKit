@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-TestForDoKit/Pods-TestForDoKit-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
+${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework
+${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework
+${BUILT_PRODUCTS_DIR}/YYDebugDatabase/YYDebugDatabase.framework

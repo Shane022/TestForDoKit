@@ -1,0 +1,6 @@
+framework module Pods_TestForDoKit {
+  umbrella header "Pods-TestForDoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

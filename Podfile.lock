@@ -1,0 +1,62 @@
+PODS:
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - DoraemonKit/Core (3.0.2)
+  - DoraemonKit/WithDatabase (3.0.2):
+    - DoraemonKit/Core
+    - YYDebugDatabase
+  - DoraemonKit/WithGPS (3.0.2):
+    - DoraemonKit/Core
+  - DoraemonKit/WithLoad (3.0.2):
+    - DoraemonKit/Core
+  - DoraemonKit/WithLogger (3.0.2):
+    - CocoaLumberjack
+    - DoraemonKit/Core
+  - DoraemonKit/WithMLeaksFinder (3.0.2):
+    - DoraemonKit/Core
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - YYDebugDatabase (2.0.9):
+    - FMDB
+    - GCDWebServer
+
+DEPENDENCIES:
+  - DoraemonKit/Core (from `https://gitee.com/yixiangboy/DoraemonKit.git`, tag `3.0.2`)
+  - DoraemonKit/WithDatabase (from `https://gitee.com/yixiangboy/DoraemonKit.git`, tag `3.0.2`)
+  - DoraemonKit/WithGPS (from `https://gitee.com/yixiangboy/DoraemonKit.git`, tag `3.0.2`)
+  - DoraemonKit/WithLoad (from `https://gitee.com/yixiangboy/DoraemonKit.git`, tag `3.0.2`)
+  - DoraemonKit/WithLogger (from `https://gitee.com/yixiangboy/DoraemonKit.git`, tag `3.0.2`)
+  - DoraemonKit/WithMLeaksFinder (from `https://gitee.com/yixiangboy/DoraemonKit.git`, tag `3.0.2`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - FMDB
+    - GCDWebServer
+    - YYDebugDatabase
+
+EXTERNAL SOURCES:
+  DoraemonKit:
+    :git: https://gitee.com/yixiangboy/DoraemonKit.git
+    :tag: 3.0.2
+
+CHECKOUT OPTIONS:
+  DoraemonKit:
+    :git: https://gitee.com/yixiangboy/DoraemonKit.git
+    :tag: 3.0.2
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  DoraemonKit: 0740089a373899c8d462df9ee824fcdd97a68da3
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  YYDebugDatabase: e9e1d2a92c32b29c8a2777e3a49d34f8133efae0
+
+PODFILE CHECKSUM: 3e2a58398a398ae2dbe9c7443d6eb223065c27a3
+
+COCOAPODS: 1.9.3
